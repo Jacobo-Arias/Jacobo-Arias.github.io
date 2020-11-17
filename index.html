@@ -26,24 +26,29 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#Contacto">Contactar</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Parte_1">Parte 1</a>
+                <li class="nav-item disabled">
+                    <a class="nav-link disabled" href="#Parte_1">Parte 1</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Parte_2">Parte 2</a>
+                <li class="nav-item disableds">
+                    <a class="nav-link disabled" href="#Parte_2">Parte 2</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Parte_3">Parte 3</a>
+                <li class="nav-item disabled">
+                    <a class="nav-link disabled" href="#Parte_3">Parte 3</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Parte_4">Parte 4</a>
+                <li class="nav-item active">
+                    <p data-toggle="collapse" data-target="#Información">
+                        <a class="nav-link" href="#Información">
+                            Información
+                        </a>
+                    </p>
                 </li>
             </ul>
     </nav>
 
-    <!-- ? Parte izquierda, foto y demás info -->
     <div class="container-fluid inicio">
         <div class="row">
+
+            <!-- ? Parte izquierda, foto y demás info -->
             <div class="col-sm-12 col-md-3">
                 <img class="img-thumbnail bg-light img-fluid" src="media/Jacobo_Foto.png" alt="">
                 <div class="container  mt-3">
@@ -77,7 +82,7 @@
 
 
 
-            <div class="col-9">
+            <div class="col-sm-12 col-md-9">
                 <div class="container">
 
                     <div class="row">
@@ -89,32 +94,48 @@
                                 </div>
                             </div>
                             <div class="container pt-1">
-                                <p>
-                                    Ingeniero de Sistemas y Computación con inclinación por la Data Science con R y Python, conocimiento en bases de datos NoSQL y Big Data. Me considero de aprendizaje rápido, responsable, además de tener experiencia de trabajo en equipo.
-                                    <br> Orientado al servicio de los que me rodean, con dos años de voluntariado en una ONG y un intercambio en Brasil
-                                    <br> Actualmente haciendo la Maestría en Ingeniería de Sistemas y Computación en la rama de ciencia de datos adelantada.
-                                </p>
+                                <p class="h5" data-toggle="collapse" data-target="#Información">Información</p>
+                                <div class="collapse show" id="Información">
+                                    <p>
+                                        Ingeniero de Sistemas y Computación con inclinación por la Data Science con R y Python, conocimiento en bases de datos NoSQL y Big Data. Me considero de aprendizaje rápido, responsable, además de tener experiencia de trabajo en equipo.
+                                        <br> Orientado al servicio de los que me rodean, con dos años de voluntariado en una ONG y un intercambio en Brasil
+                                        <br> Actualmente haciendo la Maestría en Ingeniería de Sistemas y Computación en la rama de ciencia de datos adelantada.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="container pt-1">
-                                <p>
-                                    Ingeniero de Sistemas y Computación con inclinación por la Data Science con R y Python, conocimiento en bases de datos NoSQL y Big Data. Me considero de aprendizaje rápido, responsable, además de tener experiencia de trabajo en equipo.
-                                    <br> Orientado al servicio de los que me rodean, con dos años de voluntariado en una ONG y un intercambio en Brasil
-                                    <br> Actualmente haciendo la Maestría en Ingeniería de Sistemas y Computación en la rama de ciencia de datos adelantada.
-                                </p>
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <p data-toggle="collapse" data-target="#Información" aria-expanded="true" aria-controls="collapseOne">
+                                                Información
+                                            </p>
+                                        </h5>
+                                    </div>
+
+                                    <div id="Información" class="collapse">
+                                        <div class="card-body">
+                                            <p>
+                                                Ingeniero de Sistemas y Computación con inclinación por la Data Science con R y Python, conocimiento en bases de datos NoSQL y Big Data. Me considero de aprendizaje rápido, responsable, además de tener experiencia de trabajo en equipo.
+                                                <br> Orientado al servicio de los que me rodean, con dos años de voluntariado en una ONG y un intercambio en Brasil
+                                                <br> Actualmente haciendo la Maestría en Ingeniería de Sistemas y Computación en la rama de ciencia de datos adelantada.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 </body>
 
 </html>
